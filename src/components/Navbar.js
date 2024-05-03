@@ -4,8 +4,8 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-success">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
-            GoFood
+          <Link className="navbar-brand fs-1 fst-italic" to="/">
+            FoodMate
           </Link>
           <button
             className="navbar-toggler"

@@ -11,7 +11,7 @@ const mongoDB = async () => {
       "sampleDishes"
     );
     const data = await fetched_data.find({}).toArray();
-    console.log(data);
+    console.log();
   } catch (err) {
     console.error(err);
   }

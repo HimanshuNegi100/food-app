@@ -6,7 +6,7 @@ export default function Carousel() {
         className="carousel slide carousel-fade"
         data-bs-ride="carousel"
         style={{
-          objectFit: "contain !important",
+          objectFit: "cover !important",
         }}
       >
         <div className="carousel-inner" id="carousel">
@@ -31,23 +31,23 @@ export default function Carousel() {
               src="https://source.unsplash.com/random/900x700?seafood"
               className="d-block w-100"
               alt="..."
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(60%)" }}
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/900x700?pizza"
+              src="https://source.unsplash.com/random/900x700?snacks"
               className="d-block w-100"
               alt="..."
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(60%)" }}
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://source.unsplash.com/random/900x700?burger"
+              src="https://source.unsplash.com/random/900x700?fastfood"
               className="d-block w-100"
               alt="..."
-              style={{ filter: "brightness(30%)" }}
+              style={{ filter: "brightness(60%)" }}
             />
           </div>
         </div>
